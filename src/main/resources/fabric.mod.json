@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "weathervote",
+  "version": "${version}",
+  "name": "WeatherVote",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/KaseToatz1337/NoExplosionGrief"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "com.kasetoatz.weathervote.WeatherVote"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
